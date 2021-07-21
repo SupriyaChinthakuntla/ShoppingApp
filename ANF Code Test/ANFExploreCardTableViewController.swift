@@ -21,7 +21,8 @@ class ANFExploreCardTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = self.tableView.dequeueReusableCell(withIdentifier: "ExploreContentCell", for: indexPath)
+        // Changed cell identifier to fix the crash
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "exploreContentCell", for: indexPath)
         if let titleLabel = cell.viewWithTag(1) as? UILabel,
            let titleText = exploreData?[indexPath.row]["title"] as? String {
             titleLabel.text = titleText
