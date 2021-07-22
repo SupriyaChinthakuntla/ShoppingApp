@@ -22,6 +22,14 @@
 		5624745926A89C4E008DEE84 /* ExploreCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624745826A89C4E008DEE84 /* ExploreCardTableViewCell.swift */; };
 		5624745B26A8A1BC008DEE84 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624745A26A8A1BC008DEE84 /* Constants.swift */; };
 		5624745D26A8B084008DEE84 /* ANFExploreCardDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624745C26A8B084008DEE84 /* ANFExploreCardDetailsVC.swift */; };
+		5624746426A900D0008DEE84 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624746326A900D0008DEE84 /* String+Extension.swift */; };
+		5624746626A943B0008DEE84 /* ExportCardModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624746526A943B0008DEE84 /* ExportCardModelTests.swift */; };
+		5624746826A9463E008DEE84 /* ExportCardAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624746726A9463E008DEE84 /* ExportCardAPITests.swift */; };
+		5624746A26A94662008DEE84 /* ExportCardMockAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624746926A94662008DEE84 /* ExportCardMockAPI.swift */; };
+		5624746C26A946BE008DEE84 /* ExportCardMockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624746B26A946BE008DEE84 /* ExportCardMockModel.swift */; };
+		5624746E26A9489D008DEE84 /* ExportCardDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624746D26A9489D008DEE84 /* ExportCardDetailsTests.swift */; };
+		5624747026A94AA2008DEE84 /* ExportCardJsonSerializationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624746F26A94AA2008DEE84 /* ExportCardJsonSerializationTests.swift */; };
+		5624747226A94C59008DEE84 /* ExportCardTableViewHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5624747126A94C59008DEE84 /* ExportCardTableViewHandlerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,14 @@
 		5624745826A89C4E008DEE84 /* ExploreCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreCardTableViewCell.swift; sourceTree = "<group>"; };
 		5624745A26A8A1BC008DEE84 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5624745C26A8B084008DEE84 /* ANFExploreCardDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANFExploreCardDetailsVC.swift; sourceTree = "<group>"; };
+		5624746326A900D0008DEE84 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		5624746526A943B0008DEE84 /* ExportCardModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportCardModelTests.swift; sourceTree = "<group>"; };
+		5624746726A9463E008DEE84 /* ExportCardAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportCardAPITests.swift; sourceTree = "<group>"; };
+		5624746926A94662008DEE84 /* ExportCardMockAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportCardMockAPI.swift; sourceTree = "<group>"; };
+		5624746B26A946BE008DEE84 /* ExportCardMockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportCardMockModel.swift; sourceTree = "<group>"; };
+		5624746D26A9489D008DEE84 /* ExportCardDetailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportCardDetailsTests.swift; sourceTree = "<group>"; };
+		5624746F26A94AA2008DEE84 /* ExportCardJsonSerializationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportCardJsonSerializationTests.swift; sourceTree = "<group>"; };
+		5624747126A94C59008DEE84 /* ExportCardTableViewHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportCardTableViewHandlerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +132,13 @@
 			isa = PBXGroup;
 			children = (
 				3E727EE92672708B006C11AC /* ANFExploreCardTableViewControllerTests.swift */,
+				5624746526A943B0008DEE84 /* ExportCardModelTests.swift */,
+				5624746726A9463E008DEE84 /* ExportCardAPITests.swift */,
+				5624746926A94662008DEE84 /* ExportCardMockAPI.swift */,
+				5624746B26A946BE008DEE84 /* ExportCardMockModel.swift */,
+				5624746D26A9489D008DEE84 /* ExportCardDetailsTests.swift */,
+				5624746F26A94AA2008DEE84 /* ExportCardJsonSerializationTests.swift */,
+				5624747126A94C59008DEE84 /* ExportCardTableViewHandlerTests.swift */,
 				3E727EEB2672708B006C11AC /* Info.plist */,
 			);
 			path = "ANF Code TestTests";
@@ -159,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				5624745A26A8A1BC008DEE84 /* Constants.swift */,
+				5624746326A900D0008DEE84 /* String+Extension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -265,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5624745526A89000008DEE84 /* ANFExploreCardTableViewHandler.swift in Sources */,
+				5624746426A900D0008DEE84 /* String+Extension.swift in Sources */,
 				3E727F03267281F7006C11AC /* ANFExploreCardTableViewController.swift in Sources */,
 				5624745726A89019008DEE84 /* ANFExploreCardAPIHandler.swift in Sources */,
 				5624745326A8862F008DEE84 /* ExploreCard.swift in Sources */,
@@ -281,7 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5624747226A94C59008DEE84 /* ExportCardTableViewHandlerTests.swift in Sources */,
 				3E727EEA2672708B006C11AC /* ANFExploreCardTableViewControllerTests.swift in Sources */,
+				5624747026A94AA2008DEE84 /* ExportCardJsonSerializationTests.swift in Sources */,
+				5624746826A9463E008DEE84 /* ExportCardAPITests.swift in Sources */,
+				5624746E26A9489D008DEE84 /* ExportCardDetailsTests.swift in Sources */,
+				5624746A26A94662008DEE84 /* ExportCardMockAPI.swift in Sources */,
+				5624746626A943B0008DEE84 /* ExportCardModelTests.swift in Sources */,
+				5624746C26A946BE008DEE84 /* ExportCardMockModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
